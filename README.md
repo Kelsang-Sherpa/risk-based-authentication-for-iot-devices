@@ -76,6 +76,17 @@ Distance: 171.31  Touch: 1  -> High Risk (Access Denied)
 ESP32-based risk-aware authentication system using ultrasonic distance sensing and touch verification to classify access attempts as low-risk or high-risk and provide real-time access control feedback.
 
 
+## Authentication Logic
+
+The ESP32 continuously monitors user proximity using an ultrasonic sensor.
+
+- Users detected within a predefined distance threshold are classified as low-risk and granted access.
+- Users detected outside the threshold are classified as high-risk and require additional touch-based verification.
+- Access is granted or denied based on the evaluated risk level and verification status.
+
+Authentication decisions are displayed in real time through the Serial Monitor and RGB LED indicators.
+
+
 ## Author
 
 Kelsang Chhoden Sherpa  
