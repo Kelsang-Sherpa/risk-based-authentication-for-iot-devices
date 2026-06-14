@@ -62,6 +62,20 @@ See the project poster included in this repository.
 
 <img width="457" height="528" alt="image" src="https://github.com/user-attachments/assets/6930e2fa-4fc9-4c6b-bc8d-c2303f3b30ef" />
 
+
+## Real-Time System Output
+
+The Serial Monitor displays live authentication decisions based on proximity and touch sensor input.
+
+Example runtime output:
+
+Distance: 171.38  Touch: 0  -> Step-Up Verified (Access Granted)
+
+Distance: 171.31  Touch: 1  -> High Risk (Access Denied)
+<img width="1024" height="640" alt="image" src="https://github.com/user-attachments/assets/4d43ca61-0e9a-4992-9957-ffd530abd48b" />
+ESP32-based risk-aware authentication system using ultrasonic distance sensing and touch verification to classify access attempts as low-risk or high-risk and provide real-time access control feedback.
+
+
 ## Author
 
 Kelsang Chhoden Sherpa  
