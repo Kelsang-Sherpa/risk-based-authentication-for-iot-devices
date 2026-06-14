@@ -50,6 +50,10 @@ Future development includes integrating machine learning models such as TensorFl
 See the project poster included in this repository.
 [RBAPOSTER.pdf](https://github.com/user-attachments/files/28922528/RBAPOSTER.pdf)
 
+## Hardware Setup Images
+
+<img width="4283" height="3244" alt="IMG_4779" src="https://github.com/user-attachments/assets/ffc844cc-0155-4683-b064-32e1cb4bd457" />
+
 
 ## Author
 
